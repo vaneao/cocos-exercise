@@ -26,9 +26,6 @@ export default class Game extends cc.Component {
     @property(cc.Node)
     winPopupNode: cc.Node = null;  // 弹窗节点
 
-    @property([cc.Node])
-    levels: cc.Node[] = [];  // 关卡
-
     @property(cc.AudioClip)
     hit: cc.AudioClip = null;  // 圆盘放置音效
 

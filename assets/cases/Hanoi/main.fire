@@ -2660,9 +2660,6 @@
       "__id__": 52
     },
     "_enabled": true,
-    "colorAtlas": {
-      "__uuid__": "3f05916c-c934-48ef-957a-b0b70eaa2a11"
-    },
     "_id": "22PvIQB/JMzKWNyN8SxOB7"
   },
   {
@@ -3541,23 +3538,6 @@
     "winPopupNode": {
       "__id__": 55
     },
-    "levels": [
-      null,
-      null,
-      null,
-      {
-        "__id__": 12
-      },
-      {
-        "__id__": 20
-      },
-      {
-        "__id__": 28
-      },
-      {
-        "__id__": 36
-      }
-    ],
     "hit": {
       "__uuid__": "3f38ad3f-1662-4f6c-bf95-eac729e50f3e"
     },

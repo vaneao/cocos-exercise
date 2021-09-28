@@ -14,9 +14,6 @@ const COLOR = [
 @ccclass
 export default class Disc extends cc.Component {
 
-    @property(cc.SpriteAtlas)
-    colorAtlas: cc.SpriteAtlas = null;  // 圆盘图集资源
-
     canvasNode: cc.Node = null;
     canMove: boolean = false;  // 是否可以移动圆盘
     tempPos: cc.Vec3 = cc.v3(0, 0);  // 缓存移动前的坐标
