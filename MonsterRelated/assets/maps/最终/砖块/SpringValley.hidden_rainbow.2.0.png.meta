@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "d5b7e93b-f674-41a1-a7f5-c1b69eb303e6",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 648,
+  "height": 365,
+  "platformSettings": {},
+  "subMetas": {
+    "SpringValley.hidden_rainbow.2.0": {
+      "ver": "1.0.6",
+      "uuid": "30ffb342-8c4c-426c-800b-ecd6d0ba767d",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "d5b7e93b-f674-41a1-a7f5-c1b69eb303e6",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 648,
+      "height": 365,
+      "rawWidth": 648,
+      "rawHeight": 365,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}
