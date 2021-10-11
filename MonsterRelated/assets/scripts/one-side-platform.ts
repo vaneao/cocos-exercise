@@ -26,7 +26,8 @@ export default class OneSidePlatform extends cc.Component {
         @param selfCollider the collider belong to this rigidbody
         @param otherCollider the collider belong to another rigidbody 
     */
-    onBeginContact(contact, selfCollider, otherCollider): void {
+    onBeginContact(contact, selfCollider, otherCollider) {
+        cc.log(123);
         const otherBody = otherCollider.body;
         const platformBody = selfCollider.body;
 
@@ -41,6 +42,7 @@ export default class OneSidePlatform extends cc.Component {
         const relativePoint = this.relativePoint;
 
         let flag = false;
+        cc.log(points)
         for (let i = 0, len = points.length; i < len - 1; i++) {
             if (points[i].y !== points[i + 1].y) {
                 flag = true;  // 碰撞点的y坐标不相等

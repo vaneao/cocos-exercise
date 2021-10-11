@@ -9,7 +9,7 @@ export default class Thorn extends cc.Component {
         this.nodePlayer = this.node.parent.parent.getChildByName('Player');
     }
 
-    onBeginContact(contact: cc.PhysicsContact, selfCollider, otherCollider: cc.PhysicsCollider): void {
+    onBeginContact(contact, selfCollider, otherCollider) {
         const player = this.nodePlayer.getComponent('player');
         player.hurt = true;
         if (selfCollider.offset.x > otherCollider.node.position.x) {
